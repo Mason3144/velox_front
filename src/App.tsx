@@ -1,6 +1,6 @@
 import { ApolloProvider, useReactiveVar } from "@apollo/client";
 import { HelmetProvider } from "react-helmet-async";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-dom";
 import { ThemeProvider } from "styled-components";
 import { client, darkModeVar, isLoggedInVar } from "./apollo";
 import routes from "./routes";
@@ -29,6 +29,10 @@ function App() {
                   <Editor />
                 </Layout>
               </Route>
+              <Route
+              path={'/'}
+              render={() => <Redirect to={'/editor'} />}
+              />
               <Route path={routes.home} exact>
                 {isLoggedIn ? (
                   <Layout>

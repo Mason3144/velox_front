@@ -1,24 +1,7 @@
-## Instagram Clone coding (Web frontend)
+## Velox project FE
 
-React의 기초 사용법을 익히기 위한 코딩
-
-- React hook form
-- React router, React router dom
-- Styled component
-- Font awesome
 
 ## 진행 현황
 
-- [x] Router
-- [x] Authentication
-- [x] Architect
-- [x] Styles
-      (Theory part)
-
-- [x] Log In / Sign up
-- [x] Feed
-- [x] Profile
-- [ ] See Hashtag
-
-- [ ] Username, Password, Email restriction (login and signup part in frontend and backend)
-- [ ] styled-components for darkmode
+- [ ] 문단에 + 아이콘 추가, + 아이콘 클릭시 새로운 줄 추가
+- [ ] 로컬스토리지로 임시 DB 사용
