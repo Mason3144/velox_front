@@ -1,6 +1,5 @@
 import styled from "styled-components";
-import {useEffect, useState} from "react";
-import Comment from "../feed/Comment";
+import {useEffect} from "react";
 import OneLine from "./OneLine";
 
 const ParagraphDiv = styled.div`
@@ -12,10 +11,6 @@ const ParagraphDiv = styled.div`
   border-width: 2px;
 `;
 
-
-interface Item {
-    content: string;
-}
 const Paragraph = () => {
     const db = localStorage.getItem('item');
     let items: string[] = [];

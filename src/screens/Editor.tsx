@@ -1,8 +1,5 @@
-import Photo from "../components/feed/Photo";
 import PageTitle from "../components/PageTitle";
 import Paragraph from "../components/editor/Paragraph";
-
-
 
 const Editor = () => {
 

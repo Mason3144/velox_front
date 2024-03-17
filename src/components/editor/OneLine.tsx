@@ -1,10 +1,8 @@
 import styled from "styled-components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React, {useEffect, useState} from "react";
-import Comment from "../feed/Comment";
-import { faBarChart } from "@fortawesome/free-regular-svg-icons";
+import React, {useState} from "react";
 import {faBars, faCircleXmark} from "@fortawesome/free-solid-svg-icons";
-import Controller from "./Controller";
+
 
 const OneLineDiv = styled.div`
   display: flex;
