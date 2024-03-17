@@ -12,17 +12,17 @@ const ParagraphDiv = styled.div`
 `;
 
 const Paragraph = () => {
-    const db = localStorage.getItem('item');
+    // const db = localStorage.getItem('item');
     let items: string[] = [];
 
     items.push('1');
     items.push('2');
     items.push('3');
 
-    useEffect(() => {
-        if(db) items = JSON.parse(db)
-        else localStorage.setItem('item', JSON.stringify(items));
-    }, []);
+    // useEffect(() => {
+    //     if(db) items = JSON.parse(db)
+    //     else localStorage.setItem('item', JSON.stringify(items));
+    // }, []);
 
 
 
